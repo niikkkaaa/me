@@ -1,0 +1,41 @@
+/* 
+селектор {
+    свойство: значение;
+    свойство: значение;
+}
+*/
+header h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(59, 98, 129);
+    background-color: rgb(180, 210, 224);
+}
+
+.container-hh {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container-hh-text {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.pochya {
+    margin-top: 150;
+}
+#tx {
+    background-color: bisque;
+}
+
+#pz {
+    background-color: rgb(172, 194, 235);
+}
+
+#vm {
+    background-color: rgb(172, 194, 235);
+}
