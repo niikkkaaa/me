@@ -11,6 +11,22 @@ header h1 {
     background-color: rgb(180, 210, 224);
 }
 
+a {
+    text-decoration: none;
+    color:burlywood;
+}
+
+.about-me {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    transition: transform 200ms linear;
+}
+
+.about-me:hover {
+    transform: scale(1.2);
+}
+
 .container-hh {
     display: flex;
     justify-content: space-evenly;
