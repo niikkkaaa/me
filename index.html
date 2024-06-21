@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ника</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="script.js" defer></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   </head>
 
   <body>
@@ -18,7 +20,7 @@
         <button class="whiteorblack">Сменить темку</button>
       </nav>
     </header>
-    <main>
+    <main >
       <div>
         <h1>Немного обо мне</h1>
         <p class="about-me">
@@ -31,9 +33,9 @@
       </div>
       
       <div class="container-hh">
-        <img src="hh.jpg" alt="Упс..." width="60%" />
+        <img data-aos="fade-up" src="hh.jpg" alt="Упс..." width="60%" />
         <div class="container-hh-text">
-          <img src="hhhh.jpg" alt="Упс..." width="100%" />
+          <img data-aos="fade-up" src="hhhh.jpg" alt="Упс..." width="100%" />
           <p>
             Я люблю этот лагерь за хорошую, добрую, домашнюю атмосферу,
             за прекрасный педагогический состав,
@@ -44,21 +46,22 @@
         </div>
       </div>
       <div class="pochya">
-        <h1>Почему именно я?</h1>
+        <h1 data-aos="fade-zoom-in">Почему именно я?</h1>
         <div>
-          <h3 id="pz">Подьем и зарядка</h3>
-          <p>
+          <h3 data-aos="fade-zoom-in" id="pz">Подьем и зарядка</h3>
+          <img data-aos="fade-zoom-in" src="jd.jpg" alt="упси" style="width: 600px;">
+          <p data-aos="fade-zoom-in">
             Вставать я буду в 6:30, поэтому к зарядке я точно буду готова. Обожаю
            джаст денс и буду под него отрываться с другими девочками из отряда
           </p>
-          <h3 id="tx">Тихий час</h3>
-          <img src="bedder.jpg" alt="Упс...">
-          <p class="poccc">
+          <h3 data-aos="fade-zoom-in" id="tx">Тихий час</h3>
+          <img data-aos="fade-zoom-in" src="bedder.jpg" alt="Упс...">
+          <p data-aos="fade-zoom-in" class="poccc" >
            Буду прилежно сидеть на своей кровати на протяжении 120 минут, обещаю
           </p>
-          <h3 id="vm">Вечерки и дискотеки</h3>
-          <img style="width: 600px;" src="dis.jpg" alt="Упс...">
-          <p>
+          <h3 data-aos="fade-zoom-in" id="vm">Вечерки и дискотеки</h3>
+          <img data-aos="fade-zoom-in" style="width: 600px;" src="dis.jpg" alt="Упс...">
+          <p data-aos="fade-zoom-in">
            Я очень творческая, 8 лет ходила на танцы и смогу исполнить любое
            движение на вечернем мероприятии, придумать танец и также я сама по
            себе просто обожаю танцевать и петь, на дискотеке я буду оочень часто
@@ -66,9 +69,9 @@
           </p>
       </div>
     </main>
-    <footer>
-      Буду очень счастлива, если поеду в волну. Мой номер телефона(хз зачем): 8
-      969 288-30-20
+    <footer data-aos="fade-zoom-in">
+      <h3>Буду очень счастлива, если поеду в волну. Мой номер телефона(хз зачем): 8
+        969 288-30-20</h3>
     </footer>
   </body>
 </html>

@@ -42,6 +42,22 @@ a {
 }
 
 .whiteorblack {
+    color: #1D9AF2;
+    background-color: #292D3E;
+    border: 1px solid #1D9AF2;
+    border-radius: 4px;
+    padding: 0 15px;
+    cursor: pointer;
+    height:32px;
+    font-size:14px;
+    transition: all 0.2s ease-in-out;
+    }
+    button:hover {
+    box-shadow: 1px 1px #000000, 2px 2px #171a1d, 3px 3px #31363a;
+    transform: translateX(-3px);
+    }
+
+.whiteorblack {
     cursor: pointer;
     border: none;
     font-size: 1rem;
@@ -67,16 +83,15 @@ a {
     margin-top: 150;
 }
 #tx {
+    color: black;
     background-color: bisque;
 }
 
-#pz {
+#pz, #vm  {
     background-color: rgb(172, 194, 235);
+    color: black;
 }
 
-#vm {
-    background-color: rgb(172, 194, 235);
-}
 
 .dark-about-me {
     background-color: rgb(63, 63, 63);
@@ -86,4 +101,9 @@ a {
 .dark-nav {
     background-color: rgb(63, 63, 63);
     color: rgb(255, 255, 255);
+}
+
+
+footer {
+    padding-top: 70px;
 }
