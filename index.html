@@ -8,6 +8,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="script.js" defer></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
   </head>
 
   <body>
@@ -22,7 +23,7 @@
     </header>
     <main >
       <div>
-        <h1>Немного обо мне</h1>
+        <h1 id="obomne">Немного обо мне</h1>
         <p class="about-me">
           Всем привет! Меня зовут Ника Сивова, мне 14 лет. Я люблю рисовать -
           хожу в художественную школу, занимаюсь программированием, хорошо знаю
@@ -33,7 +34,7 @@
       </div>
       
       <div class="container-hh">
-        <img data-aos="fade-up" src="hh.jpg" alt="Упс..." width="60%" />
+        <img data-aos="fade-up" src="hh.jpg" alt="Упс..." width="60%" id="img"/>
         <div class="container-hh-text">
           <img data-aos="fade-up" src="hhhh.jpg" alt="Упс..." width="100%" />
           <p>
@@ -56,7 +57,7 @@
           </p>
           <h3 data-aos="fade-zoom-in" id="tx">Тихий час</h3>
           <img data-aos="fade-zoom-in" src="bedder.jpg" alt="Упс...">
-          <p data-aos="fade-zoom-in" class="poccc" >
+          <p data-aos="fade-zoom-in">
            Буду прилежно сидеть на своей кровати на протяжении 120 минут, обещаю
           </p>
           <h3 data-aos="fade-zoom-in" id="vm">Вечерки и дискотеки</h3>

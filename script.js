@@ -16,3 +16,16 @@ function toggle_dark_mode() {
 }
 let button = document.querySelector(".whiteorblack")
 button.addEventListener("click", toggle_dark_mode)
+
+function my_anime() {
+    anime({
+        targets: '#obomne',
+        translateX: 1000,
+        direction: 'alternate',
+        loop: true,
+        easing: 'cubicBezier(.5, .05, .1, .3)'
+      })
+    
+}
+
+my_anime()
